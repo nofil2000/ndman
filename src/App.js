@@ -1,7 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
+import {useState} from 'react'
 
 function App() {
+
+const[p,setP]=useState("1")
+
+
   return (
     <div className="App">
       <header className="App-header">
@@ -15,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React 4
+          Learn React 4 {p}
         </a>
       </header>
     </div>

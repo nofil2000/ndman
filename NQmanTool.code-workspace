@@ -2,7 +2,18 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"path": "..\\..\\mvn\\my-app"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"files.exclude": {
+			"**/.classpath": true,
+			"**/.project": true,
+			"**/.settings": true,
+			"**/.factorypath": true
+		},
+		"java.dependency.packagePresentation": "hierarchical"
+	}
 }
