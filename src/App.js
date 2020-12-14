@@ -18,7 +18,7 @@ const[p,setP]=useState("1")
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
-          rel="noopener noreferrer"
+          rel="noopener  noreferrer"
         >
           Learn React 4 {p}
         </a>
